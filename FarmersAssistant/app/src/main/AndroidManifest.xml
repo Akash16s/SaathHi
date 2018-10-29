@@ -3,6 +3,8 @@
     package="com.example.akash.farmersassistant">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +20,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Assistant"/>
-        <activity android:name=".assistance"/>
+        <activity android:name=".assistance">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".help"></activity>
     </application>
 
 </manifest>

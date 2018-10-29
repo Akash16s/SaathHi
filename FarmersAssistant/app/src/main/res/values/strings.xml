@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Farmer\'s Assistant</string>
     <string name="title">SaathHi</string>
-    <string name="temp">24°C </string>
+    <string name="temp">28°C </string>
     <string name="condition">ज्यादातर धूप</string>
     <string name="questions">फसल कैसे विकसित करें ??</string>
     <string name="solutions">मिट्टी, पानी, बीज, सूर्य, उर्वरक की आवश्यकता है</string>
     <string name="news">अनाज लागत पर भारी नुकसान</string>
+    <string name="default_location">Fetching Location</string>
+    <string name="default_temp">NA</string>
+    <string name="change_city_description">Click Here to Change City</string>
+    <string name="weather_description">This is the weather symbol</string>
+    <string name="back_button_description">Dismiss Change City Screen</string>
+    <string name="get_weather">Change City</string>
+    <string name="default_query">Enter city name</string>
 </resources>
